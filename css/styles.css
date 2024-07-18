@@ -19,7 +19,14 @@ body{
 }
 
 /*********Bootstrap Styles********/
+.navbar-brand img{
+  width: auto;
+  height: 30px;
+}
 
+.bg-dark{
+  background-color: var(--second-color) !important;
+}
 
 /*********My  Styles********/
 
