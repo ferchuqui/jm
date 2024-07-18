@@ -21,7 +21,7 @@ body{
 /*********Bootstrap Styles********/
 .navbar-brand img{
   width: auto;
-  height: 30px;
+  height: 3rem;
 }
 
 .bg-dark{
