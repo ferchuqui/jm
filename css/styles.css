@@ -79,7 +79,9 @@ body{
 /* // Large devices (desktops, 992px and up) */
 
 @media (min-width: 992px) {
-
+.nav-item:hover{
+  background-color: transparent;
+}
 }
 
 /* X-large devices (large desktops, 1200px and up */
