@@ -19,6 +19,19 @@ body{
 }
 
 /*********Bootstrap Styles********/
+.bg-dark{
+  background-color: var(--second-color) !important;
+}
+
+.dropdown-item {
+  color: var(--first-alpha-color);
+  font-weight: bold;
+  transition: all 0.3s ease-out;
+}
+
+.dropdown-item:hover {
+  color: var(--third-alpha-color);
+}
 .navbar-brand img{
   width: auto;
   height: 3rem;
@@ -32,7 +45,6 @@ body{
   opacity: 0.75;
   }
 .nav-item{
-  padding-left: 0.5rem;
   transition: all 0.3s ease-out;
 }
 .nav-item:hover{
@@ -40,6 +52,7 @@ body{
 }
 
 .nav-link {
+  margin-left: 0.5rem;
   color: var(--first-color);
   font-size: 1.15rem;
   font-weight: bold;
@@ -47,9 +60,6 @@ body{
 
 .nav-link:hover {
   color: var(--bs-white);
-}
-.bg-dark{
-  background-color: var(--second-color) !important;
 }
 
 /*********My  Styles********/
