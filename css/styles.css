@@ -84,6 +84,12 @@ a:hover{
     rgba(83, 184, 152, 1)
   );
 }
+.bg-third-color{
+  background-color: var(--third-color);
+}
+.text-third {
+  color: var(--third-color);
+}
 
 /* X-Small device (portrait phones, less than 576px)
 //No media query for 'xs' since this is the default in Bootstrap**
