@@ -99,6 +99,9 @@ a:hover{
   background-repeat: no-repeat;
   background-size: cover;
 }
+.bg-alpha-color{
+  background-color: var(--bg-alpha-color);
+}
 .bg-color{
   background-color: var(--bg-color);
 }
