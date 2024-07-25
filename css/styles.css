@@ -93,6 +93,12 @@ a:hover{
     rgba(83, 184, 152, 1)
   );
 }
+
+.bg-hero-image {
+  background-image: var(--bg-image);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .bg-color{
   background-color: var(--bg-color);
 }
