@@ -107,6 +107,9 @@ a:hover{
 .bg-alpha-color{
   background-color: var(--bg-alpha-color);
 }
+.text-first-color{
+  color: var(--first-color);
+}
 .bg-second-alpha-color{
   background-color: var(--second-alpha-color)
 }
